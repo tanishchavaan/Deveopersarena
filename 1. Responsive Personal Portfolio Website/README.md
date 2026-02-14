@@ -4,10 +4,6 @@ A modern, responsive, and performance-focused personal portfolio website built u
 
 ---
 
-## 🌐 Live Preview
-
-🔗 https://your-portfolio-link.com
-
 ---
 
 ## 📌 About The Project
