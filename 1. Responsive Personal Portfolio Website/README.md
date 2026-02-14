@@ -51,14 +51,20 @@ This portfolio is designed to:
 
 ---
 
-## 📂 Project Structure
-
-portfolio/
-│── index.html  
-│── style.css  
-│── script.js  
-│── assets/  
-
+## week1-portfolio/
+│── index.html
+│── css/
+│ ├── style.css
+│ ├── responsive.css
+│ └── variables.css
+│── js/
+│ └── navigation.js
+│── images/
+│ ├── profile.jpg
+│ ├── project1.jpg
+│ └── icons/
+│── README.md
+└── .gitignore
 ---
 
 ## 🧠 Skills
@@ -108,12 +114,3 @@ Karuna High School, Sangareddy (2007–2020) | 100%
 
 ---
 
-## 📬 Contact
-
-Email: your-email@example.com  
-LinkedIn: Add your link  
-GitHub: Add your link  
-
----
-
-⭐ If you like this project, feel free to star the repository!
