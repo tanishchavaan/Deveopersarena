@@ -52,4 +52,3 @@ Filtering options:
 
 ---
 
-## 📁 Project Structure
