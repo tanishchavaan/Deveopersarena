@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+form input, form select, form button {
+    padding: 8px;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+.filters button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.filters .active {
+    background: #007bff;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s ease;
+}
+
+.task-item.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.priority-high { color: red; }
+.priority-medium { color: orange; }
+.priority-low { color: green; }
+
+.stats {
+    margin-top: 15px;
+}
+
+button {
+    cursor: pointer;
+}

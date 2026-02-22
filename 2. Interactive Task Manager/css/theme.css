@@ -1,0 +1,15 @@
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background: #1e1e1e;
+}
+
+body.dark input,
+body.dark select {
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+}
