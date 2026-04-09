@@ -61,7 +61,3 @@ A complete **Full Stack Task Management Application** built with **React (TypeSc
 - CI/CD (GitHub Actions)
 - Deployment (Vercel / Railway / Render)
 
----
-
-## 📁 Project Structure
-
