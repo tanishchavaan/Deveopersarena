@@ -1,0 +1,3 @@
+-- Initial Migration Script V1
+-- Physical table creation is currently handled by Hibernate auto-ddl update property.
+-- You can define raw SQL migrations here.

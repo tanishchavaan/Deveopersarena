@@ -1,0 +1,43 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: week9-secure-ecommerce
+  config:
+    import: classpath:oauth2-credentials.yml
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+security:
+  jwt:
+    secret: ZHVtbXlzZWNyZXRrZXlmb3Jqd3R0b2tlbnByb3ZpZGVyc2lnaW5hdHVyZWFsc29yZXF1aXJlZGZvcjUxMmJpdHMxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTA=
+    access-token-expiration: 900000
+    refresh-token-expiration: 604800000
+
+resilience4j.ratelimiter:
+  instances:
+    apiRateLimit:
+      limitForPeriod: 5
+      limitRefreshPeriod: 5m
+      timeoutDuration: 0
+    loginRateLimit:
+      limitForPeriod: 5
+      limitRefreshPeriod: 5m
+      timeoutDuration: 0
