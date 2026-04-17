@@ -1,3 +1,63 @@
+# 📊 Enterprise Dashboard with Real-time Analytics & Advanced State Management
+
+## 🚀 Project Overview
+
+The **Enterprise Dashboard with Real-time Analytics** is a production-ready React application designed to deliver high-performance data visualization, real-time updates, and scalable architecture.
+
+This project demonstrates modern frontend engineering practices including:
+
+- ⚡ Real-time analytics using WebSockets  
+- 🧠 Advanced state management with Redux Toolkit  
+- 📊 Interactive dashboards with charts  
+- 🏗️ Scalable and modular architecture  
+- 🧪 Comprehensive testing strategy  
+- 🚀 Production deployment readiness  
+
+---
+
+## 🎯 Objectives
+
+- Build a **scalable enterprise-grade dashboard**
+- Implement **real-time data streaming**
+- Ensure **high performance and responsiveness**
+- Maintain **clean and maintainable architecture**
+- Achieve **high test coverage and reliability**
+
+---
+
+## 🛠️ Tech Stack
+
+| Category              | Technology |
+|----------------------|-----------|
+| Frontend             | React 18 + TypeScript |
+| State Management     | Redux Toolkit |
+| Routing              | React Router v6 |
+| UI Library           | Material-UI |
+| Charts               | Recharts |
+| Server State         | React Query |
+| Real-time            | WebSocket |
+| Testing              | Jest + React Testing Library |
+| E2E Testing          | Cypress |
+| Documentation        | Storybook |
+| Build Tool           | Vite |
+
+---
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+
+### Install Dependencies
+
+```bash
+git clone https://github.com/your-username/week10-enterprise-dashboard.git
+cd week10-enterprise-dashboard
+npm install
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
